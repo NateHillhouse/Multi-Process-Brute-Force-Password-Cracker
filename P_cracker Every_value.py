@@ -5,8 +5,8 @@ import multiprocessing
 #keyboard.add_hotkey('esc', exit()) #Make a function that goes from the max number of characters and works down
 
 
-    word = 'aaa'
-    number = 2
+word = 'aaa'
+number = 2
 
 def result_(list): #Will run through the numbers backwards, because lowercase is used more often than Upper; should be faster
     for i in list:
@@ -92,4 +92,5 @@ if __name__ == '__main__':
     print(f'Elapsed Time: {elapsed_time}')
     print(f'The final result is: {fin}')  
     sys.exit()
+
 
